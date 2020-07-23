@@ -34,7 +34,7 @@ public class FizzBuzzUnitTest {
     @Test
     public void should_return_Buzz_when_play_fizz_buzz_given_5() {
         //given
-        int given = 1;
+        int given = 5;
         //when
         FizzBuzz game = new FizzBuzz();
         String actual = game.play(given);
