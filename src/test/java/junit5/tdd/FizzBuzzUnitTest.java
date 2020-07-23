@@ -1,6 +1,5 @@
 package junit5.tdd;
 
-import javafx.scene.media.AudioClip;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
