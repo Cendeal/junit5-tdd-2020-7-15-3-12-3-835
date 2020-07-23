@@ -58,12 +58,12 @@ public class FizzBuzzUnitTest {
     @Test
     public void should_return_FizzBuzz_when_play_fizz_buzz_given_21() {
         //given
-        int given = 15;
+        int given = 21;
         //when
         FizzBuzz game = new FizzBuzz();
         String actual = game.play(given);
         //then
-        String expect = "FizzBuzz";
+        String expect = "FizzWhizz";
         assertEquals(expect, actual);
     }
 
