@@ -51,7 +51,7 @@ public class FizzBuzzUnitTest {
         FizzBuzz game = new FizzBuzz();
         String actual = game.play(given);
         //then
-        String expect = "Buzz";
+        String expect = "Whizz";
         assertEquals(expect, actual);
     }
 }
