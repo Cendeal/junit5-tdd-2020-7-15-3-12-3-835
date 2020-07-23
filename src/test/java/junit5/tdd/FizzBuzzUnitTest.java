@@ -54,9 +54,20 @@ public class FizzBuzzUnitTest {
         String expect = "Whizz";
         assertEquals(expect, actual);
     }
+    @Test
+    public void should_return_FizzBuzz_when_play_fizz_buzz_given_15() {
+        //given
+        int given = 15;
+        //when
+        FizzBuzz game = new FizzBuzz();
+        String actual = game.play(given);
+        //then
+        String expect = "FizzBuzz";
+        assertEquals(expect, actual);
+    }
 
     @Test
-    public void should_return_FizzBuzz_when_play_fizz_buzz_given_21() {
+    public void should_return_FizzWhizz_when_play_fizz_buzz_given_21() {
         //given
         int given = 21;
         //when
