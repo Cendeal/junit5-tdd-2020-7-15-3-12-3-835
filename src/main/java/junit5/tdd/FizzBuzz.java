@@ -9,6 +9,9 @@ public class FizzBuzz {
         if (number % 5 == 0) {
             result += "Buzz";
         }
+        if (number % 7 == 0) {
+            result += "Whizz";
+        }
         if (result.isEmpty()) {
             result += String.valueOf(number);
         }
